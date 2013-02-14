@@ -13,11 +13,11 @@ namespace temp1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = 111;
+            Label1.Text = "222";
         }
-        private string GetString()
+        /*private string GetString()
         {
-            /*string constr = System.Configuration.ConfigurationManager.ConnectionStrings["connstr"].ConnectionString;
+            string constr = System.Configuration.ConfigurationManager.ConnectionStrings["connstr"].ConnectionString;
             SqlConnection conn = new SqlConnection(constr);
             //conn.ConnectionString = constr;
             conn.Open();
@@ -30,7 +30,7 @@ namespace temp1
             cmd.Dispose();
             conn.Close();
             sdr.Close();
-            return value;*/
-        }
+            return value;
+        }*/
     }
 }
