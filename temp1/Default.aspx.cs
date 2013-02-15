@@ -13,7 +13,7 @@ namespace temp1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = "222";
+            Label1.Text = GetString();
         }
         private string GetString()
         {
